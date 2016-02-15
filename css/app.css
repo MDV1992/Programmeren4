@@ -1,0 +1,76 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.floor {
+    height: auto;
+    background-color: black;
+}
+
+.control-panel {
+    height: 17%;
+    background-color: #F9F6F4;
+}
+
+.showroom {
+    min-height: 100%;
+    background-color: black;
+    margin: 0% 5% 5% 5%;
+    color: white;
+}
+
+.jumbotron{
+    background-color: black;
+}
+
+.detail {
+    height: 82%;
+    width: 80%;
+    background-color: #fff8e7;
+}
+
+.list {
+    height: 100%;
+    width: 20%;
+    background-color: #faf0e6;
+}
+
+.command-panel {
+    height: 100%;
+    background-color: #C35E4D;
+}
+
+.showroom header {
+    height: 10%;
+}
+
+.showroom .feedback {
+    height: 8%;
+    background-color: #acacac;
+}
+
+body > div > footer {
+    height: 17%;
+    background-color: #3c3c3c;
+    color: #fff8e7;
+}
+
+.navbar {
+    background-color: black;
+    color: white;
+}
+
+.container-fluid {
+    height: auto;
+    background-color: black;
+}
+
+.col-sm-3 a:hover {
+background-color: brown;
+}

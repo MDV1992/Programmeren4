@@ -1,0 +1,24 @@
+{
+  "name": "modernways/mvc",
+  "type": "library",
+  "description": "The Threepenny MVC component consists of 3 classes to implement a MVC pattern in all sort of applications",
+  "version": "1.0.1",
+  "keywords": ["mvc", "model", "view", "control", "threepenny"],
+  "homepage": "http://modernways.be/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jef Inghelbrecht",
+      "email": "jef.inghelbrecht@inantwerpen.com",
+      "homepage": "http://inantwerpen.com/"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ModernWays\\Mvc\\": "src/"
+    }
+  }
+}
