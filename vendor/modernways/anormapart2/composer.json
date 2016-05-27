@@ -1,0 +1,24 @@
+{
+  "name": "modernways/anormapart",
+  "type": "library",
+  "description": "The An Orm Apart component consists of 4 base classes to implement An Orm Apart scaffolded DAL, Model, Controller classes and Views.",
+  "version": "1.0.1",
+  "keywords": ["orm", "model", "view", "control", "anormapart"],
+  "homepage": "http://modernways.be/",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Jef Inghelbrecht",
+      "email": "jef.inghelbrecht@inantwerpen.com",
+      "homepage": "http://inantwerpen.com/"
+    }
+  ],
+  "require": {
+    "php": ">=5.5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "ModernWays\\AnOrmApart\\": "src/"
+    }
+  }
+}
